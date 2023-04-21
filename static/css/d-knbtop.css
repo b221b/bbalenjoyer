@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	display: flex;
+	justify-content: center;
+}
+.Logo, .Top_menu{
+		margin-right: 25px;
+		display: inline-block;
+		vertical-align: middle;
+}
+.Top_menu li{
+	margin-right: 25px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.Top_menu a{
+		vertical-align: middle;
+	font-family: arial;
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+}
+.Top_menu a:hover{
+	color: blue;
+}
+.Logo h1{
+	font-family: arial;
+	font-size: 30px;
+	vertical-align: middle;
+		vertical-align: middle;
+	color: white;
+}
+.double-border-button {
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 20px;
+  padding: 10px 30px;
+  position: relative;
+  color: #6b00b8;
+  font-family: 'Montserrat', sans-serif;
+  transition: .4s;
+}
+
+.thing3 {
+  background-color: black;
+  padding: 1rem;
+  width: 98%;
+  height: 100%;
+  box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
+    0 5px 15px 0 rgba(0,0,0,0.08);
+  border-radius: 0.5rem;
+  color:black;
+  
+  border-left: 0 solid #00ff99;
+  transition: border-left 300ms ease-in-out, padding-left 300ms ease-in-out;
+}
+
+.heading {
+  color: #fff;
+}
+
+/*закругление картинок*/
+.round {
+    border-radius: 20px; /* Радиус скругления */
+    border: ; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+}
+/*закругление картинок*/
+	
+/*сайт*/
+
+h1{
+	
+}
+
+h5{
+	color: red;
+}
+body{
+	margin: 2px;
+	padding: 0px;
+	font-size: 14px;
+	font-family: 'Montserrat', franklin gothic medium;
+}
+	
+
+
+/*прямоугольник держатель формы всего сайта*/
+.thing1 {
+  background-color: ;
+  padding: 1.4rem;
+  width: 1470px;
+  height: 2750px;
+  box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
+    0 5px 15px 0 rgba(0,0,0,0.08);
+  border-radius: 0.5rem;
+  color:black;
+  
+  border-left: 0 solid #00ff99;
+  transition: border-left 300ms ease-in-out, padding-left 300ms ease-in-out;
+}
+
+.heading {
+  color: #fff;
+}
+/*прямоугольник держатель формы всего сайта*/

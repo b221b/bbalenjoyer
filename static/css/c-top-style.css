@@ -1,0 +1,327 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	display: flex;
+	justify-content: center;
+}
+.Logo, .Top_menu{
+		margin-right: 25px;
+		display: inline-block;
+		vertical-align: middle;
+}
+.Top_menu li{
+	margin-right: 25px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.Top_menu a{
+		vertical-align: middle;
+	font-family: arial;
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+}
+.Top_menu a:hover{
+	color: blue;
+}
+.Logo h1{
+	font-family: arial;
+	font-size: 30px;
+	vertical-align: middle;
+		vertical-align: middle;
+	color: white;
+}
+.double-border-button {
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 20px;
+  padding: 10px 30px;
+  position: relative;
+  color: #6b00b8;
+  font-family: 'Montserrat', sans-serif;
+  transition: .4s;
+}
+
+.thing3 {
+  background-color: black;
+  padding: 1rem;
+  width: 98%;
+  height: 100%;
+  box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
+    0 5px 15px 0 rgba(0,0,0,0.08);
+  border-radius: 0.5rem;
+  color:black;
+  
+  border-left: 0 solid #00ff99;
+  transition: border-left 300ms ease-in-out, padding-left 300ms ease-in-out;
+}
+
+.heading {
+  color: #fff;
+}
+
+/*закругление картинок*/
+.round {
+    border-radius: 20px; /* Радиус скругления */
+    border: ; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+}
+/*закругление картинок*/
+	
+/*сайт*/
+
+h1{
+	
+}
+
+h5{
+	color: red;
+}
+body{
+	margin: 2px;
+	padding: 0px;
+	font-size: 14px;
+	font-family: 'Montserrat', franklin gothic medium;
+}
+	/*кнопки*/
+		/*кнопка баскет*/
+.floating-button {
+  text-decoration: none;
+  display: inline-block;
+  width: 240px;
+  height: 50px;
+  line-height: 45px;
+  border-radius: 45px;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #524f4e;
+  background: white;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+  transition: .3s;
+  margin-left: 301px;
+}
+.floating-button:hover {
+  background: #42aaff;
+  box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+  color: white;
+  transform: translateY(-7px);
+}
+		/*кнопка баскет*/
+		
+		/*кнопка стрит*/
+.floating-button1 {
+  text-decoration: none;
+  display: inline-block;
+  width: 240px;
+  height: 50px;
+  line-height: 45px;
+  border-radius: 45px;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #524f4e;
+  background: white;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+  transition: .3s;
+  margin-left: 890px;
+}
+.floating-button1:hover {
+  background: #42aaff;
+  box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+  color: white;
+  transform: translateY(-7px);
+}
+		/*кнопка стрит*/
+	/*кнопки*/
+	
+/*баскетбол прямоугольники*/
+.thing {
+  margin-left: 300px;
+  padding: 1rem;
+  width: 600px;
+  height: 300;
+  box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
+    0 5px 15px 0 rgba(0,0,0,0.08);
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  color:black;
+  
+  border-left: 0 solid #00ff99;
+  transition: border-left 300ms ease-in-out, padding-left 300ms ease-in-out;
+}
+.thing:hover {
+  padding-left: 0.5rem;
+  border-left: 0.5rem solid #42aaff;
+}
+.thing > :first-child {
+  margin-top: 0;
+}
+
+.thing > :last-child {
+  margin-bottom: 0;
+}
+
+.heading {
+  color: #fff;
+}
+/*баскетбол прямоугольники*/
+
+/*стритбол прямоугольники*/
+.thing2 {
+  margin-left: 510px;
+  padding: 1.5rem;
+  width: 600px;
+  height: 250px;
+  box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
+    0 5px 15px 0 rgba(0,0,0,0.08);
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  color:black;
+  
+  border-left: 0 solid #00ff99;
+  transition: border-right 300ms ease-in-out, padding-left 300ms ease-in-out;
+}
+.thing2:hover {
+  padding-right: 0.5rem;
+  border-right: 0.5rem solid #42aaff;
+}
+.thing2 > :first-child {
+  margin-top: 0;
+}
+
+.thing2 > :last-child {
+  margin-bottom: 0;
+}
+
+.heading2 {
+  color: #fff;
+}
+/*стритбол прямоугольники*/
+
+/*прямоугольник держатель формы всего сайта*/
+.thing1 {
+  background-color: ;
+  padding: 1rem;
+  width: 1470px;
+  height: 900px;
+  box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
+    0 5px 15px 0 rgba(0,0,0,0.08);
+  border-radius: 0.5rem;
+  color:black;
+  
+  border-left: 0 solid #00ff99;
+  transition: border-left 300ms ease-in-out, padding-left 300ms ease-in-out;
+}
+
+.heading {
+  color: #fff;
+}
+/*прямоугольник держатель формы всего сайта*/
+
+body{
+  font-family: 'Bangers', cursive;
+  font-size: 15px;
+}
+.box{
+  margin:25px;
+  width:1450px;
+  height:220px;
+  background:#666666;
+  border: solid black;
+  border-color: black;
+  float:left; 
+    border-radius: 2rem;
+}
+
+
+.oddboxinner{
+  margin:5px;
+  transform: rotate(0deg);
+}
+.evenboxinner{
+  transform: rotate(2deg);
+  margin:15px;
+  padding:0 5px;
+  float:right;
+  background:#ddd;
+  border:1px solid #222;
+  box-shadow:3px 3px 0 #222;
+}
+/*верхний бар*/
+#div1{
+    width:700px;
+    height:540px;
+    background-color:#333333;
+	color: white;
+}
+#div2{
+	margin-right: -150px;
+    width:330px;
+    height:110px;
+    background-color:#bbbbbb;
+	color: white;
+}
+#div3{
+    width:600px;
+    height:235px;
+    background-color:#333333;
+	color: white;
+}
+.T1{
+		margin-right: 25px;
+	display: inline-block;
+		vertical-align: middle;
+}
+.T1 li{
+	margin-right: 25px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.T1 a{
+		vertical-align: middle;
+	font-family: arial;
+	font-size: 15px;
+	color: black;
+	text-decoration: none;
+}
+.T1{
+		margin-right: 25px;
+	display: inline-block;
+		vertical-align: middle;
+}
+a:hover{
+	color: purple;
+	font-size: 15px
+}ы
+/*Игроки*/
+
+/*прямоугольник держатель сайта*/*/
+.thing1 {
+  background-color: ;
+  padding: 1rem;
+  width: 1470px;
+  height: 1450px;
+  box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
+    0 5px 15px 0 rgba(0,0,0,0.08);
+  border-radius: 0.5rem;
+  color:black;
+  
+  border-left: 0 solid #00ff99;
+  transition: border-left 300ms ease-in-out, padding-left 300ms ease-in-out;
+}
+
+.heading {
+  color: #fff;
+}
+/*прямоугольник*/
